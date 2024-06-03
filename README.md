@@ -6,6 +6,12 @@
 [![Discord](https://img.shields.io/discord/697882427875393627?style=flat-square)](https://discord.gg/Bjt6TcgV)
 [![Codecov](https://codecov.io/gh/RedisLabs/spark-redis/branch/master/graph/badge.svg)](https://codecov.io/gh/RedisLabs/spark-redis)
 
+# IMPORTANT NOTE
+
+This fork was created to provide support to Spark 3.5.0 and will be deceased after merge of [SPARK-REDIS-390](https://github.com/RedisLabs/spark-redis/pull/391)
+
+Maven package is available
+
 # Spark-Redis
 A library for reading and writing data in [Redis](http://redis.io) using [Apache Spark](http://spark.apache.org/).
 
@@ -22,7 +28,7 @@ The master branch contains the recent development for the next release.
 
 | Spark-Redis                                                               | Spark | Redis            | Supported Scala Versions | 
 |---------------------------------------------------------------------------|-------| ---------------- | ------------------------ |
-| [master](https://github.com/RedisLabs/spark-redis/)                       | 3.2.x | >=2.9.0          | 2.12                     | 
+| [master](https://github.com/RedisLabs/spark-redis/)                       | 3.5.x | >=2.9.0          | 2.12                     | 
 | [3.0](https://github.com/RedisLabs/spark-redis/tree/branch-3.0)           | 3.0.x | >=2.9.0          | 2.12                     | 
 | [2.4, 2.5, 2.6](https://github.com/RedisLabs/spark-redis/tree/branch-2.4) | 2.4.x | >=2.9.0          | 2.11, 2.12               | 
 | [2.3](https://github.com/RedisLabs/spark-redis/tree/branch-2.3)           | 2.3.x | >=2.9.0          | 2.11                     | 
